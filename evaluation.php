@@ -12,7 +12,7 @@
 </head>
 <body bgcolor="pink">
 	<h1 align="center"><i><u>PROJECT EVALUATION</i></u></h1><br><br>
-	<h2>	
+	<h2 align="center">	
 	<?php
 		$handle = fopen('file2.txt', 'r');
 		$en=fgets($handle);
