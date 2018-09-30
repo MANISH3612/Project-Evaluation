@@ -3,6 +3,7 @@
 	<title>Registered Successfully</title>
 </head>
 <body bgcolor="yellow">
+<h2 align="center">
 <?php
 
 $handle = fopen('file2.txt','r');
@@ -38,7 +39,7 @@ fwrite($handle, "\n");
 fclose($handle);
 
 ?>
-
+</h2>
 <h3 align="center">Thank You</h3>
 </body>
 </html>
